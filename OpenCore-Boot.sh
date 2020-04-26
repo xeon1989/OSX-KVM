@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-# All credits for OpenCore support go to https://github.com/Leoyzen/KVM-Opencore and
-# https://github.com/thenickdude/KVM-Opencore/. Thanks!
-
+# All credits for OpenCore support go to https://github.com/Leoyzen/KVM-Opencore. Thank you!
 
 # qemu-img create -f qcow2 mac_hdd_ng.img 128G
 #

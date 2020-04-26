@@ -67,5 +67,3 @@
 * zimbatm - portability enhancements, cool crazy ideas (thanks!)
 
 * https://github.com/Leoyzen/KVM-Opencore - OpenCore support
-
-* Kyle Dayton - UEFI, Clover, and GPU passthrough notes
