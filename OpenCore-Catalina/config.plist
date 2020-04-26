@@ -161,7 +161,7 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectMemoryRegions</key>
+			<key>ProtectCsmRegion</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
@@ -169,6 +169,8 @@
 			<true/>
 			<key>SetupVirtualMap</key>
 			<true/>
+			<key>ShrinkMemoryMap</key>
+			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
@@ -396,7 +398,7 @@
 				<key>Base</key>
 				<string></string>
 				<key>Comment</key>
-				<string>Rename board-id to board-ix</string>
+				<string>Ranem board-id to board-ix</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -561,6 +563,8 @@
 				<string>keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
+				<key>nvda_drv</key>
+				<data>MQ==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 			</dict>
@@ -646,7 +650,7 @@
 		<array>
 			<string>apfs-nolog.efi</string>
 			<string>#ApfsDriverLoader.efi</string>
-			<string>OpenRuntime.efi</string>
+			<string>FwRuntimeServices.efi</string>
 			<string>VBoxHfs.efi</string>
 		</array>
 		<key>Audio</key>
@@ -692,7 +696,7 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>Resolution</key>
-			<string>1920x1080</string>
+			<string>Max</string>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
